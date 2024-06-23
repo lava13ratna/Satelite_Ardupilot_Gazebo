@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ardupilot_gz_bringup</name>
+  <version>0.0.0</version>
+  <description>Launch files for `ardupilot_gz`.</description>
+  <maintainer email="rhys.mainwaring@me.com">Rhys Mainwaring</maintainer>
+  <license>GPL-3.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>ardupilot_gazebo</exec_depend>
+  <exec_depend>ardupilot_gz_description</exec_depend>
+  <exec_depend>ardupilot_gz_gazebo</exec_depend>
+  <exec_depend>ardupilot_sitl</exec_depend>
+  <exec_depend>ardupilot_sitl_models</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <!-- TODO this installs ignition -->
+  <exec_depend>ros_gz_bridge</exec_depend>  
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>sdformat_urdf</exec_depend>
+  <exec_depend>topic_tools</exec_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
